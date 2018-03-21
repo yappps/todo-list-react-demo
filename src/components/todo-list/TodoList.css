@@ -4,5 +4,10 @@
 }
 
 #todo-title {
-  background: gold
+  background-color: aqua;
+  text-align: center
+}
+
+.done {
+  text-decoration: line-through;
 }

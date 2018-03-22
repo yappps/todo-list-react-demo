@@ -11,6 +11,6 @@ deploy:
   provider: heroku
   app: swift-waters-95000
   on:
-    repo: davified/temp_heroku_travis
+    repo: yappps/todo-list-react-demo
   api_key:
     secure: qIxEpWwAEUOBnwDCaqrwKeYeomygphoMfQu3OU/eNdvNYVE+PZiwRabuS1k/JONO6/yKbjGIlCLZeOL1D4y/l47mSslgBp3h0pP+4XMkwp9YTCrDFfV3Dzd4HhdcjZ7IofrxymDR4Xz1PeesP1gwRbenL0Mcq2TgH0G23BIn4rAOWWAnefY4jHJfT8ykbZpoeViZCKJdbt5xd3dV+Esqn78Plye/Tfx7cVNo3EthmhF0NQrTpwUmGWjDJUcppnyoSXzdvQMUoF+zhU/Ydsv6eXWAedpF5MwWdw/wH8t5EnN22kJRXh6lECwt6NlUpAOc+9aTXB1IKW7VDjOxBtfvMdWWL7Sj7IO3wF9UzOJX25qLSyS5rCRNAhR6b0QHvPRTUKjWpBLcvRJ785smGbp7MuUG+JWF3GzOO0gqravqedmI3Krn0wxL7rjS3CPXIJakbDvhwMCTo4+QEh5FEAZKN/TW8K5CcMx9DbVaC4wUythXdoZSY8ZHgfeRzICxtduDNL09jA3emMm6qG6kGgXq34cQVt+o7LVo68mYJH+rr/J6eNYNE9IaYNrB5TNTZsG3GyOHdAl6e+aj23QG2FQVzBY1h4ZSD2L+GerU/MBjMf4lZG6P4BI6txUpZJiHd9+1QtlJcadXWH/4Pb838Gp5LlB1ZikeKC5MveuD+UvLRhM=

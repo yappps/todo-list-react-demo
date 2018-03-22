@@ -9,7 +9,7 @@ script:
 - yarn build
 deploy:
   provider: heroku
-  app: swift-waters-95000
+  app: arcane-tundra-64724
   on:
     repo: yappps/todo-list-react-demo
   api_key:

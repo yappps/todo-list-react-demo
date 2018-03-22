@@ -23,12 +23,13 @@ class TodoList extends Component {
     });
   }
 
+  // Event handler for submitting newTodo to the Original data
   handleSubmit(newTodo) {
-    // alert("Added a new Todo Item: " + this.state.value);
-    // event.preventDefault();
+    // to add to the ORIGINAL ARRAY
     this.state.todos.push(newTodo);
+    // dont understand this
     this.setState({
-      value: ""
+      value: "asdf"
     });
   }
   render() {

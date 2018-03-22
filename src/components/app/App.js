@@ -4,7 +4,12 @@ import "./App.css";
 
 class App extends Component {
   render() {
-    return <TodoList title="Todos" />;
+    return (
+      <div>
+        <TodoList title="Jumpstart" />
+        {/* <TodoList title="Homework" /> */}
+      </div>
+    );
   }
 }
 

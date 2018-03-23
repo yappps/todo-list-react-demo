@@ -3,6 +3,7 @@ import { todosArray } from "../../utils/seedData";
 import "./TodoList.css";
 import TodoItem from "./TodoItem";
 import TodoForm from "./TodoForm";
+import '../../index.css';
 
 class TodoList extends Component {
   constructor() {

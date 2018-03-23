@@ -2,7 +2,7 @@ import React, { Component } from "react";
 class TodoForm extends Component {
   constructor() {
     super();
-    // why do I need this. 
+    // why do I need this.
     this.state = {
       newTodo: { description: "", isCompleted: false }
     };
@@ -17,26 +17,27 @@ class TodoForm extends Component {
   }
 
   handleSubmit(event) {
-    event.preventDefault();   // To prevent default reloading of page
+    event.preventDefault; // To prevent default reloading of page
     // console.log(this.state.newTodo);  // return {description:"dsjf", isCompleted:"false"}
 
     // console.log(this.props);  // return {handleSubmit: ƒ}
     // console.log(this.props.handleSubmit) // return a function handleSubmit(newTodo){...} in Todolist.js
-    this.props.handleSubmit(this.state.newTodo); 
+    this.props.handleSubmit(this.state.newTodo);
     this.setState({
       newTodo: {
         description: "",
         isCompleted: "false"
       },
-      value:""
+      value: ""
     });
   }
   render() {
     return (
       <div>
-        <form onSubmit={this.handleSubmit.bind(this)}>
+        <form id="submit" onSubmit={this.handleSubmit.bind(this)}>
           <label>
             <input
+              id="textField"
               type="text"
               value={this.state.value}
               onChange={this.handleChange.bind(this)}

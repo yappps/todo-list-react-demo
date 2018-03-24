@@ -12,7 +12,7 @@ class TodoList extends Component {
       todos: todosArray,
       value: ""
     };
-    this.handleSubmitNewTodos = this.handleSubmit.bind(this);
+    this.handleSubmit = this.handleSubmit.bind(this);
   }
 
   // Event handler for strike

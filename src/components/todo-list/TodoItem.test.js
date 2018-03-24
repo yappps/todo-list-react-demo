@@ -4,7 +4,7 @@ import TodoItem from "./TodoItem";
 
 describe("TodoItem", () => {
   const sampleData = { description: "buy milk", isCompleted: true };
-  xit("should render a TodoItem element properly", () => {
+  it("should render a TodoItem element properly", () => {
     const wrapper = shallow(<TodoItem todo={sampleData} />);
     /*
     wrapper = shallowWrapper {length: 1}

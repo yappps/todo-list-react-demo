@@ -14,7 +14,7 @@ import TodoForm from "./TodoForm";
 describe("TodoForm", () => {
   it("should have 1 form", () => {
     const wrapper = shallow(<TodoForm />);
-    console.log(wrapper.debug());
+    // console.log(wrapper.debug());
     expect(wrapper.find("form")).toHaveLength(1);
   });
 
@@ -30,7 +30,7 @@ describe("TodoForm", () => {
       .props()
       .onSubmit(event);
  
-    // wrapper.find("form#submit").simulate("submit");
+    wrapper.find("form#submit").simulate("submit",{preventDEfault(){}});
     expect(mockHandleSubmit).toBeCalled();
   });
 
